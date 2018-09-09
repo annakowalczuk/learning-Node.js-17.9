@@ -20,6 +20,9 @@ function start() {
             case '/upload':
                 handlers.upload(request, response);
                 break;
+            case '/style.css':
+                handlers.css(request, response);
+                break;
             default:
                 handlers.show(request, response);
         }
