@@ -40,4 +40,5 @@ input[type=submit] {
 
 img {
     background-color: #F2FDFE;
+    border: 10px solid #F2FDFE;
 }

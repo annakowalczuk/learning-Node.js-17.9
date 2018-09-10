@@ -30,7 +30,7 @@ function start() {
 
     http.createServer(onRequest).listen(9000);
 
-    console.log("Uruchomiono serwer!".green);
+    console.log("Uruchomiono serwer! http://localhost:9000/".green);
 }
 
 exports.start = start;
